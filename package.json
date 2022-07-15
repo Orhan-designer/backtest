@@ -1,0 +1,31 @@
+{
+  "name": "firebase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.18"
+  },
+  "dependencies": {
+    "@influxdata/influxdb-client": "^1.27.0",
+    "cors": "^2.8.5",
+    "firebase": "^9.8.4",
+    "firebase-admin": "^11.0.0",
+    "firebase-scrypt": "^2.2.0",
+    "firebase-tools": "^11.2.0"
+  }
+}
